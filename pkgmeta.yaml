@@ -1,0 +1,23 @@
+package-as: WIKR - Best Around (Revisited)
+enable-nolib-creation: no
+
+externals:
+
+move-folders:
+
+ignore:
+
+required-dependencies:
+
+optional-dependencies:
+
+embedded-libraries:
+
+license-outbound: LICENCE
+
+tools-used:
+
+plain-copy:
+  - Sounds/*
+  - BestAround.lua
+  - BestAround.toc
