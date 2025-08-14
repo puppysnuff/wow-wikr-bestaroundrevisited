@@ -22,6 +22,7 @@ BestAround.defaults = {
     }
 }
 
+-- https://www.wowace.com/projects/ace3/pages/ace-config-3-0-options-tables
 BestAround.options = {
     type = "group",
     name = "BestAround Revisited",
@@ -55,6 +56,7 @@ BestAround.options = {
                     type = "toggle",
                     name = "Enabled",
                     desc = "Enable or disable achievement sounds",
+                    width = 1.75,
                     get = function(info) return BestAround.db.profile.achievements.enabled end,
                     set = function(info, value) BestAround.db.profile.achievements.enabled = value end,
                 },
@@ -84,6 +86,7 @@ BestAround.options = {
                     type = "toggle",
                     name = "Enabled",
                     desc = "Enable or disable level-up sounds",
+                    width = 1.75,
                     get = function(info) return BestAround.db.profile.levels.enabled end,
                     set = function(info, value) BestAround.db.profile.levels.enabled = value end,
                 },
@@ -113,6 +116,7 @@ BestAround.options = {
                     type = "toggle",
                     name = "Enabled",
                     desc = "Enable or disable death sounds",
+                    width = 1.75,
                     get = function(info) return BestAround.db.profile.deaths.enabled end,
                     set = function(info, value) BestAround.db.profile.deaths.enabled = value end,
                 },
